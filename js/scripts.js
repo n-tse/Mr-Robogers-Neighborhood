@@ -44,5 +44,6 @@ $(document).ready(function() {
     event.preventDefault();
     const userNum = $("#user-Number").val();
     $("#translated-text").html(printResults(userNum));
+    $("#output").show();
   });
 });

@@ -67,3 +67,9 @@ Code:
 Input: 12
 printResults(userNum);
 Expected Output: "0", "Beep", "Boop", "Won't you be my neighbor?", "4", "5", "6", "7", "8", "9", "Beep!", "Beep!", "Boop"
+
+Test: "It should return the translated text with special cases accounted for (new attempt after debugging)"
+Code:
+Input: 0
+printResults(userNum);
+Expected Output: "0"

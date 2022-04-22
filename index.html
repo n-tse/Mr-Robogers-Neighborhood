@@ -17,12 +17,14 @@
     <form id="translator">
       <div class="form-group">
         <p>Please input a number (ideally somewhere between 1 and 30, unless you want to see an extremely long string of words and numbers):</p>
-        <textarea id="user-Number" name="user-Number" class="form-control"></textarea>
+        <input id="user-Number" name="user-Number" class="form-control"></input>
         <br>
         <button type="submit" class="btn btn-primary">Submit</button>
       </div>
     </form>
-    <p>Mr. Roboger says: <b><span id="translated-text"></span></b></p>
+    <div id="output">
+      <p>Mr. Roboger says: <b><span id="translated-text"></span></b></p>
+    </div>
     <br>
   </div>
 </body>

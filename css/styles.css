@@ -1,0 +1,17 @@
+#output {
+  display: none;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: "Lucida Console";
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+body {
+  padding: 30px;
+}
