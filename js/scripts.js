@@ -2,7 +2,9 @@
 
 function translator(number) {
   if (number === "3") {
-    return "Won't you be my neighbor?"
+    return "Won't you be my neighbor?";
+  } else if (number === "2") {
+    return "Boop!";
   }
 }
 

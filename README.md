@@ -13,3 +13,9 @@ Code:
 Input: 3
 translator(userNum);
 Expected Output: Won't you be my neighbor?
+
+Test: "It should return 'Boop!' if the user input is 2"
+Code:
+Input: 2
+translator(userNum);
+Expected Output: Boop!
