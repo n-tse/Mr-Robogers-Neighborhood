@@ -32,11 +32,17 @@ Input: 4
 translator(userNum);
 Expected Output: "0", "Beep!", "Boop!", "Won't you be my neighbor?", "4"
 
+
+Describe: printResults()
+
 Test: "It should format results with quotations around each element, followed by a comma (excluding the final element)"
 Code:
 Input: 4
 printResults(userNum);
 Expected Output: "0", "Beep!", "Boop!", "Won't you be my neighbor?", "4"
+
+
+Describe: checkForSpecial()
 
 Test: "It should split a mulitple digit number into individual digits"
 Code:
@@ -55,6 +61,9 @@ Code:
 Input: 45
 checkforSpecial(userNum);
 Expected Output: 45
+
+
+Describe: printResults()
 
 Test: "It should return the translated text with special cases accounted for"
 Code:
