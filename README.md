@@ -1,4 +1,40 @@
-TESTS
+# _Mr. Roboger's Neighborhood_
+
+#### By _**Nick Tse**_
+
+#### _A web application that takes a number from a user and returns a range of numbers with some substitutions_
+
+## Technologies Used
+
+* _HTML_
+* _CSS_
+* _BootStrap_
+* _JavaScript_
+* _jQuery_
+
+## Description
+
+_This [webpage](https://github.com/n-tse/Mr-Robogers-Neighborhood) is a web app that takes a number from the user and returns a range of numbers from 0 to the user inputted number with substitutions made for any numbers containing 1, 2, or 3. Any numbers containing 3 will be replaced with "Won't you be my neighbor?"; any numbers containing 2 will be replaced with "Boop!"; any numbers containing 1 will be replaced with "Beep!". 
+Additionally, there is a hierarchy of substitutions - 3 having the highest priority and 1 having the lowest._
+
+## Setup/Installation Requirements
+
+* _Clone the repository to your device_
+* _Open the newly cloned 'robogersNeighborhood' directory_
+* _Click on index.html_
+* _Enter a number and click submit to view the results_
+
+## Known Bugs
+
+* _No known bugs_
+
+## License
+
+_MIT_
+
+Copyright (c) _2022_ _Nick Tse_
+
+## TESTS
 
 Describe: translator()
 
