@@ -16,12 +16,24 @@ function translator(number) {
   return numArray;
 }
 
+function formatter(array) {
+  let result = "";
+  for (let i = 0; i < array.length; i++) {
+    result = result.concat(array[i]) + ", ";
+  }
+  return result;
+}
+
+function printResults(number) {
+  return formatter(translator(number));
+}
+
 // UI Logic
 
 $(document).ready(function() {
   $("form#translator").submit(function(event) {
     event.preventDefault();
     const userNum = $("#user-Number").val();
-    $("#translated-text").html(translator(userNum));
+    $("#translated-text").html(printResults(userNum));
   });
 });
