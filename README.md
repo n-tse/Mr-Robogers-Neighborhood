@@ -37,3 +37,9 @@ Code:
 Input: 4
 printResults(userNum);
 Expected Output: "0", "Beep!", "Boop!", "Won't you be my neighbor?", "4"
+
+Test: "It should split a mulitple digit number into individual digits"
+Code:
+Input: 12
+checkForSpecial(userNum);
+Expected Output: "1", "2"

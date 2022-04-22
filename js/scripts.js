@@ -28,6 +28,11 @@ function formatter(array) {
   return result;
 }
 
+function checkForSpecial(number) {
+  let splitNums = number.toString().split('');
+  return formatter(splitNums);
+}
+
 function printResults(number) {
   return formatter(translator(number));
 }
@@ -39,5 +44,6 @@ $(document).ready(function() {
     event.preventDefault();
     const userNum = $("#user-Number").val();
     $("#translated-text").html(printResults(userNum));
+    $("#splitNums").html(checkForSpecial(userNum));
   });
 });
