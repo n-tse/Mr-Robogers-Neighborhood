@@ -19,7 +19,11 @@ function translator(number) {
 function formatter(array) {
   let result = "";
   for (let i = 0; i < array.length; i++) {
-    result = result.concat(array[i]) + ", ";
+    let word = "\"" + array[i] + "\"";
+    result += word;
+    if (i < array.length -1) {
+      result += ", ";
+    }
   }
   return result;
 }
