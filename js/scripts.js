@@ -30,7 +30,16 @@ function formatter(array) {
 
 function checkForSpecial(number) {
   let splitNums = number.toString().split('');
-  return formatter(splitNums);
+  if (splitNums.includes("3")) {
+    return "Won't you be my neighbor?";
+  } else if (splitNums.includes("2")) {
+    return "Boop!";
+  } else if (splitNums.includes("1")) {
+    return "Beep!";
+  } else {
+    return number;
+  }
+  // return formatter(splitNums);
 }
 
 function printResults(number) {

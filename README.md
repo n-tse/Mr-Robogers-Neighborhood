@@ -43,3 +43,9 @@ Code:
 Input: 12
 checkForSpecial(userNum);
 Expected Output: "1", "2"
+
+Test: "It should scan the user number for special cases, and if a special case is found, it should return the corresponding text"
+Code:
+Input: 32
+checkForSpecial(userNum);
+Expected Output: "Won't you be my neighbor?"
