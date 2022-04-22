@@ -1,7 +1,9 @@
 // Business Logic
 
 function translator(number) {
-  return number;
+  if (number === 3) {
+    return "Won't you be my neighbor?"
+  }
 }
 
 // UI Logic
