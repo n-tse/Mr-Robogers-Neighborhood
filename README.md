@@ -31,3 +31,9 @@ Code:
 Input: 4
 translator(userNum);
 Expected Output: "0", "Beep!", "Boop!", "Won't you be my neighbor?", "4"
+
+Test: "It should format results with quotations around each element, followed by a comma (excluding the final element)"
+Code:
+Input: 4
+printResults(userNum);
+Expected Output: "0", "Beep!", "Boop!", "Won't you be my neighbor?", "4"
