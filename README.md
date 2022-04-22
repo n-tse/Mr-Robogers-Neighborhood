@@ -25,3 +25,9 @@ Code:
 Input: 1
 translator(userNum);
 Expected Output: Beep!
+
+Test: "It should return, in ascending order, numbers up to the user input number along with the corresponding substitutions"
+Code:
+Input: 4
+translator(userNum);
+Expected Output: "0", "Beep!", "Boop!", "Won't you be my neighbor?", "4"
