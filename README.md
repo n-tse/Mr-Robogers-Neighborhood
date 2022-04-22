@@ -14,11 +14,14 @@
 
 ## Description
 
-_This [webpage](https://github.com/n-tse/Mr-Robogers-Neighborhood) is a web app that takes a number from the user and returns a range of numbers from 0 to the user inputted number with substitutions made for any numbers containing 1, 2, or 3. Any numbers containing 3 will be replaced with "Won't you be my neighbor?"; any numbers containing 2 will be replaced with "Boop!"; any numbers containing 1 will be replaced with "Beep!". 
+_This [webpage](https://n-tse.github.io/Mr-Robogers-Neighborhood/) is a web app that takes a number from the user and returns a range of numbers from 0 to the user inputted number with substitutions made for any numbers containing 1, 2, or 3. Any numbers containing 3 will be replaced with "Won't you be my neighbor?"; any numbers containing 2 will be replaced with "Boop!"; any numbers containing 1 will be replaced with "Beep!". 
 Additionally, there is a hierarchy of substitutions - 3 having the highest priority and 1 having the lowest._
 
 ## Setup/Installation Requirements
 
+* _Click on this [webpage](https://n-tse.github.io/Mr-Robogers-Neighborhood/)_
+* _Enter a number and click submit to view the results_
+* _OR_
 * _Clone the repository to your device_
 * _Open the newly cloned 'robogersNeighborhood' directory_
 * _Click on index.html_
