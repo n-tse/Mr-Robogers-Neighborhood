@@ -49,3 +49,9 @@ Code:
 Input: 32
 checkForSpecial(userNum);
 Expected Output: "Won't you be my neighbor?"
+
+Test: "It should return the same number if a special case trigger is not found"
+Code:
+Input: 45
+checkforSpecial(userNum);
+Expected Output: 45
