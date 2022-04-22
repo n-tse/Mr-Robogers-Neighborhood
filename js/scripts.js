@@ -5,6 +5,8 @@ function translator(number) {
     return "Won't you be my neighbor?";
   } else if (number === "2") {
     return "Boop!";
+  } else if (number === "1") {
+    return "Beep!";
   }
 }
 

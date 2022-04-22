@@ -19,3 +19,9 @@ Code:
 Input: 2
 translator(userNum);
 Expected Output: Boop!
+
+Test: "It should return 'Beep!' if the user input is 1"
+Code:
+Input: 1
+translator(userNum);
+Expected Output: Beep!
